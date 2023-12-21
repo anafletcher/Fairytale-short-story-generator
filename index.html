@@ -11,19 +11,23 @@
   <body>
     <div class="container">
     <header>
-      <h1>Fairytales</h1>
+      <h1>Fairytale Generator</h1>
     </header>
     <main>
-      <form id="story-generator-form">
+        <div class="form-container">
+        <form id="story-generator-form">
         <input
           type="text"
-          placeholder="Enter a theme, character, animal or place for your story" class="theme" id="theme"
+          placeholder="Enter a character, animal or place for your story" class="theme" id="theme"
         />
         <input type="submit" class="submit-button"/>
-      </form>
+        </form>
+        <div class="hint">eg. Donkey, elf, magic cloak, China</div>
+        </div>
       <div class="story hidden" id="story"></div>
       <script src="src/index.js"></script>
     </main>
+    
     <footer>
       This project was coded by
       <a href="https://github.com/anafletcher">Alicia Fletcher</a> and is
