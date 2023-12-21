@@ -65,3 +65,11 @@ footer {
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
 }
+
+.story strong {
+  color: violet;
+}
+
+.hidden {
+  display: none;
+}

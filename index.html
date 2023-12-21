@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -16,11 +17,11 @@
       <form id="story-generator-form">
         <input
           type="text"
-          placeholder="Enter a theme, character, animal or place for your story" class="theme"
+          placeholder="Enter a theme, character, animal or place for your story" class="theme" id="theme"
         />
         <input type="submit" class="submit-button"/>
       </form>
-      <div class="story" id="story"></div>
+      <div class="story hidden" id="story"></div>
       <script src="src/index.js"></script>
     </main>
     <footer>
